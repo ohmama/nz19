@@ -1,11 +1,1 @@
-
-# Site settings
-title: Yanglong's Blog    				  	#你博客的标题
-SEOTitle: Yanglong's Blog    	 #显示在浏览器上搜索的时候显示的标题
-header-img: img/post-bg-rwd.jpg  	#显示在首页的背景图片
-email: yangloneli@gmail.com	
-description: "Yanglong Li's Blog"  			 #网站介绍
-keyword: "COVID19 NZ YanglongLi" #关键词
-url: "https://ohmama.github.io"          # 这个就是填写你的博客地址
-baseurl: ""      # 这个我们不用填写
 theme: jekyll-theme-merlot
