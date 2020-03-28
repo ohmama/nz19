@@ -8,4 +8,4 @@ description: "Yanglong Li's Blog"  			 #网站介绍
 keyword: "COVID19 NZ YanglongLi" #关键词
 url: "https://ohmama.github.io"          # 这个就是填写你的博客地址
 baseurl: ""      # 这个我们不用填写
-theme: jekyll-theme-tactile
+theme: jekyll-theme-merlot
