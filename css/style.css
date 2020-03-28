@@ -1,0 +1,138 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  position: relative;
+  background-color: #333;
+  margin: 0 auto; }
+
+/*@-webkit-keyframes MOVE-BG {*/
+/*  from {*/
+/*    -webkit-transform: translateY(0);*/
+/*  }*/
+/*  to {*/
+/*    -webkit-transform: translateY(100px);*/
+/*  }*/
+/*}*/
+
+/*@keyframes MOVE-BG {*/
+/*  from {*/
+/*    transform: translateY(0);*/
+/*  }*/
+/*  to {*/
+/*    transform: translateY(100px);*/
+/*  }*/
+/*}*/
+.title {
+  height: 80px;
+  color: #FFF;
+}
+.title h1{
+  color: #555;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+.nzmap{
+  background-color: #f0f8ff;
+}
+.stripeBg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  z-index: -1;
+
+  background-color: #FFF;
+  background-image: url(../images/stripes.svg);
+
+  /*-webkit-animation-name: MOVE-BG;*/
+  /*-webkit-animation-duration: .6s;*/
+  /*-webkit-animation-timing-function: linear;*/
+  /*-webkit-animation-iteration-count: infinite;*/
+
+  /*animation-name: MOVE-BG;*/
+  /*animation-duration: .6s;*/
+  /*animation-timing-function: linear;*/
+  /*animation-iteration-count: infinite;*/
+}
+
+path{
+  cursor: pointer;
+}
+.city {
+  fill: #bbb;
+  stroke: #eee;
+  stroke-width:1px;
+}
+
+
+.level1{
+  fill: #cccc00;
+  stroke: #fff;
+}
+.level2{
+  fill: #FF7F50;
+  stroke: #fff;
+}
+.level3{
+  fill: #800000;
+  stroke: #fff;
+}
+/*bubble*/
+.bubble {
+  fill-opacity: .5;
+  stroke: #fff;
+  stroke-opacity: 0.5;
+  /*pointer-events: none; */
+}
+.bubble_focus {
+  stroke-width:2px;
+  stroke-opacity: .8;
+  fill-opacity: .8;
+}
+.label {
+  font-size: 10px;
+  font-weight: bold;
+  text-anchor: middle;
+  cursor: default;
+  fill: white;
+  pointer-events: none;}
+
+.mapContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#chartwrap {
+  color: black;
+  float: left;
+  width: 300px;
+  height: 800px;
+  padding-top: 20%; }
+
+.center {
+  text-align: center; }
+
+.categoryIndicator {
+  margin-top: 20px;
+  font-size: 22px; }
+
+/*tooltip*/
+.hidden {
+  display: none;
+}
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 80px;
+  padding: 2px;
+  font: 12px sans-serif;
+  fill: #222;
+  border: 1px;
+  pointer-events: none;
+  border: 1px #222 solid;
+  background-color: #eee;
+  border-radius: 10%;
+}
+/*# sourceMappingURL=style.css.map */
