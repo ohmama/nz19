@@ -35,6 +35,9 @@ queue()
 function ready(error, nz, nzdata) {
 	if (error)
 		return console.error(error);
+
+	// set caption
+	$('#dateDesc').text(nzdata.caption);
 	var dataGroup = [nz.features, nzdata];
 	// show map
 	g.selectAll("path")
