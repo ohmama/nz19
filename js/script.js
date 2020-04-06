@@ -3,7 +3,7 @@ var height = 800;
 
 var radius = d3.scale.sqrt()
 	.domain([0, 30])
-	.range([0, 15]);
+	.range([0, 10]);
 
 var svg = d3.select("#nzmap")
 	.attr("width", width)
@@ -103,7 +103,7 @@ function ready(error, nz, nzdata) {
 	// bubble number
 	 jobBubble.append("text")
 	  .attr("class", "label")
-	  .attr("transform", function(d) { return "translate(" + path.centroid(d) + ")"; })
+	  .attr("transform", function(d) { condi = path.centroid(d);condi = [condi[0],condi[1] + 3]; return "translate(" + condi + ")"; })
 		 .text(function(d) { return d.properties.num > 4?d.properties.num:'';})
 
 	// jobBubble.append("text")
