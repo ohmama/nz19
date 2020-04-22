@@ -45,7 +45,8 @@ body {
   z-index: -1;
 
   background-color: #FFF;
-  background-image: url(../images/stripes.svg);
+  /* background-image: url(../images/stripes.svg); */
+  
 
   /*-webkit-animation-name: MOVE-BG;*/
   /*-webkit-animation-duration: .6s;*/
@@ -57,6 +58,30 @@ body {
   /*animation-timing-function: linear;*/
   /*animation-iteration-count: infinite;*/
 }
+
+.barber{
+  width: 800px;
+  height: 55px;
+  /* background: repeating-linear-gradient(-45deg, #14c3a2, #14c3a2 30px,#22e8c3 30px, #22e8c3 60px); */
+  /* (width/ sin45/ dividen number{here is 20}) */
+  background: repeating-linear-gradient(-45deg, #FFF, #FFF 56.569px,#ffdc51 56.569px, #ffdc51 113.138px);
+  border-bottom: 0.2rem solid #0d7e68;
+  animation: barberya 12s linear infinite;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@keyframes barberya{
+  from{
+      background-position: 0% 0%;
+  }
+  to{
+      background-position: 600px 0%;
+  }
+}
+
+
+
+
 
 path{
   cursor: pointer;
